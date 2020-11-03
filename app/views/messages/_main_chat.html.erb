@@ -12,37 +12,7 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        Sho
-      </div>
-      <div class="message-date">
-        2020/11/2(Mon) 15:15:15
-      </div> 
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-        Let's Go!!!!!
-      </div>
-    </div>
-  </div>
-
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        Kakeru
-      </div>
-      <div class="message-date">
-        2020/11/2(Mon) 15:15:51
-      </div> 
-    </div>
-    <div class="lower-message">
-      <div class="message-content">
-        Let's Start!!!!!
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
